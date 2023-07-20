@@ -10,6 +10,16 @@
 </head>
 
 <body>
+    <header>
+        @auth
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a href="{{ route('series.index') }}" class="navbar-brand">Controle de séries</a>
+                    <a href="{{ route('logout') }}" class="navbar-link btn btn-light">Sair</a>
+                </div>
+            </nav>
+        @endauth
+    </header>
     <main class="container">
         <h1>{!! $title !!}</h1>
 
@@ -18,7 +28,7 @@
                 {{ $mensagemSucesso }}
             </div>
         @endisset
-        
+
         @if ($errors->any())
             <div class="alert alert-danger">
                 @foreach ($errors->all() as $error)
