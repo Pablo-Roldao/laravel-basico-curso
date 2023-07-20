@@ -8,7 +8,7 @@
                 @isset($serie->name) value="{!! $serie->name !!}" @endisset>
         </div>
 
-        <button type="submit" class="btn btn-dark">Adicionar</button>
+        <button type="submit" class="btn btn-dark">Editar</button>
     </form>
 
 </x-layout>

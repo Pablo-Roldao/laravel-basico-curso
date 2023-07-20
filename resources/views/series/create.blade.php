@@ -8,12 +8,12 @@
             </div>
 
             <div class="mb-2 col-2">
-                <label for="seasonsQty" class="form-label">Temporadas:</label>
+                <label for="seasonsQty" class="form-label">Nº de temporadas:</label>
                 <input type="text" id="seasonsQty" name="seasonsQty" class="form-control">
             </div>
 
             <div class="mb-2 col-2">
-                <label for="episodesPerSeason" class="form-label">Nome:</label>
+                <label for="episodesPerSeason" class="form-label">Nº de ep. / temporada:</label>
                 <input type="text" id="episodesPerSeason" name="episodesPerSeason" class="form-control">
             </div>
         </div>
